@@ -1,0 +1,30 @@
+body{
+    background:url(bluemetal1.jpg);
+    color: white;
+    
+}
+h1 {
+    color:blue;
+    
+  }
+  
+  p {
+    font-family:Verdana;
+    font-size: 13px;
+    list-style-type: lower-latin;
+  }
+ 
+  h1,h3{
+      color: blueviolet;
+      
+  }
+  .highLight{
+      color: yellow;
+  }
+  
+  #favo1,#favo2,#favo3{
+    color:rgb(247, 152, 11);
+}
+a{
+    color:red;
+}

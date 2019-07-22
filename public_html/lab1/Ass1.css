@@ -24,7 +24,7 @@ h1 {
     list-style-type: lower-latin;
   }
   p::first-letter{
-      color: red;
+      color:white;
       font-size: 15px;
     
   }
@@ -33,7 +33,7 @@ h1 {
       color: blueviolet;
       
   }
-  .highLight{
+  .highLight,dt{
       color: yellow;
   }
   

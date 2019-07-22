@@ -10,6 +10,7 @@ h1 {
   a:link {
     color: red;
   }
+  
 
   /* mouse over link */
   a:hover {
@@ -22,7 +23,7 @@ h1 {
     font-size: 13px;
     list-style-type: lower-latin;
   }
-  p::first-letter{
+  #About,#quar,#demo,#Movie,#favo,#mud::first-letter{
        font-size: 1.5em;
   }
  
@@ -33,7 +34,7 @@ h1 {
       color: yellow;
   }
   
-  #About,#quar,#demo,#Movie,#favo,#mud{
+  #favo1,#favo2,#favo3{
     color:rgb(247, 152, 11);
 }
 a{

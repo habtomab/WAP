@@ -7,7 +7,24 @@ h1 {
     color:blue;
     
   }
+  a:link {
+    color: red;
+  }
   
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
   p {
     font-family:Verdana;
     font-size: 13px;
@@ -21,7 +38,7 @@ h1 {
   .highLight{
       color: yellow;
   }
-  
+  a.
   #favo1,#favo2,#favo3{
     color:rgb(247, 152, 11);
 }

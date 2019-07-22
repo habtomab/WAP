@@ -23,6 +23,11 @@ h1 {
     font-size: 13px;
     list-style-type: lower-latin;
   }
+  p::first-letter{
+      color: red;
+      font-size: 80px;
+      padding-right: 8px;
+  }
  
   h1,h3{
       color: blueviolet;

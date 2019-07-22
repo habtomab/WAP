@@ -24,9 +24,7 @@ h1 {
     list-style-type: lower-latin;
   }
   p::first-letter{
-      color:white;
-      font-size: 15px;
-    
+       font-size: 1.5em;
   }
  
   h1,h3{

@@ -1,0 +1,47 @@
+/* This will style the body Part */
+body{
+    background-color:white;
+    background-image: url(silverware.jpg);
+    color: #404040 ;
+    font-size: 11pt;
+    font-family: Georgia,Garamond,serif;
+}
+/* this will style the h1 Part */
+h1{
+    text-align: center;
+    font-size: 22pt;
+    font-weight:bold;
+}
+/* this will style the head part of the page particularly */
+#pie{
+color:#A4A400;
+background-color: #F0F0F0;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
+
+}
+h4{
+    color:#A4A400;
+background-color: #F0F0F0;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
+font: 18pt;
+}
+/* this will style the type of unorderd list */
+ul.directions{
+    list-style-type: circle;
+}
+/* this will color all the comment part of the page and its font to italic */
+.colorComment{
+    background-color:#FFFFA8;
+    font-style: italic;
+}
+/* this will style the link color */
+link{
+    color:#A4A400 ;
+}
+/* this will style the image of unorderd list */
+ul > li{
+    list-style-image: url(pie_icon.jpg);
+}
+#makeAlignRight{
+    text-align: right;
+}

@@ -42,6 +42,3 @@ link{
 ul > li{
     list-style-image: url(pie_icon.jpg);
 }
-#makeAlignRight{
-    text-align: right;
-}

@@ -1,0 +1,90 @@
+body{
+    background: url("images/background.png");
+    font-size: 8pt; 
+    font-family: Verdana Tahoma sans-serif  ;
+    margin: 0;
+    padding: 0;
+    
+}
+#theBanner{      
+    background: url("images/bannerbg.png");
+    background-repeat:repeat-x; 
+}
+#theHeader{
+    font-size: 24pt;
+    border-style: bold;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-shadow: 3px 3px #999999;
+    text-align: center;
+}
+.overall_content{
+    border:4px gray solid;
+border-radius: 20px;
+overflow: auto;
+column-gap: 2em;
+width: 800px;
+padding: 0;
+margin-left: auto;
+margin-right: auto;
+/* background-color:#A2B964; */
+}
+#theReview{
+    float: right;
+    width: 250px;
+    
+}
+/* #critics_reviews{ */
+    /* width: 550px; */
+
+
+.quotes{
+border: 2px solid black;
+border-radius: 10px;
+padding: 2px;
+width: 250px;
+
+}
+.critics_reviews_2{
+    float: right;
+    overflow:auto;
+}
+#footer{
+    text-align:center; 
+  
+}
+#critics_reviews{
+    
+    column-count: 2;
+    column-gap: 2em;
+    width: 550px;
+    overflow:auto;
+    /* background: url("images/background.png"); } */
+}
+    #ImageRate{
+        background-image: url(images/rbg.png);
+        background-repeat: repeat-x;
+        
+        
+    }
+    #thevalidators_div{
+        text-align: right;
+     }
+    #rate{
+        font-size:48pt;
+        color: red;  
+        font-weight: bold
+    }
+    #theReview dl{
+    
+        width: 250px;
+    }
+    .reviewPerson img{
+        margin-right: 5px;
+    }
+    #footer{
+        text-align:center; 
+      
+    }
+    #thevalidators_div{
+        text-align: right;
+     }

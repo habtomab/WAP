@@ -18,20 +18,18 @@ body{
     text-align: center;
 }
 .overall_content{
-    border:4px gray solid;
-border-radius: 20px;
-overflow: auto;
-column-gap: 2em;
-width: 800px;
-padding: 0;
-margin-left: auto;
-margin-right: auto;
+    width: 800px;
+    margin: auto;
+    border: 4px solid gray;
+    border-radius: 20px;
+    overflow: hidden;
+    height: fit-content;
 /* background-color:#A2B964; */
 }
 #theReview{
     float: right;
     width: 250px;
-    
+    background: green;
 }
 /* #critics_reviews{ */
     /* width: 550px; */
@@ -42,6 +40,7 @@ border: 2px solid black;
 border-radius: 10px;
 padding: 2px;
 width: 250px;
+height: 90px;
 
 }
 .critics_reviews_2{
@@ -85,6 +84,13 @@ width: 250px;
         text-align:center; 
       
     }
-    #thevalidators_div{
-        text-align: right;
+    #validation div{ 
+    text-align: left;
+   
+     }
+    
+     #alignCenter{  
+        margin-left: 10%;
+        margin-right: 10%;
+     
      }

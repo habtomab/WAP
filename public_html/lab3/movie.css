@@ -73,6 +73,21 @@ height: 90px;
         color: red;  
         font-weight: bold
     }
+}
+dl{
+    padding: 10pt;
+}
+
+dd{
+    padding-bottom: 10pt;
+}
+
+ul{
+    list-style-type: none;
+}
+    p > img{
+        float: left;
+    }
     #theReview dl{
     
         width: 250px;

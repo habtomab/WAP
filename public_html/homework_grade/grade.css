@@ -22,4 +22,7 @@ input[type="text"] {
   width: 10%;
   display: inline;
   float: left;
+}#container{
+  display: inline;
+  text-align: center;
 }

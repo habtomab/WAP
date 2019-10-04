@@ -2,3 +2,24 @@ input[type="text"] {
     background-color: yellow;
     font-weight: bold;
   }
+  form{
+    border: 5px solid gray ;
+  }
+  form{
+    width: 700px;
+    border: 1px solid rgb(14, 10, 14)
+   
+    
+}
+
+.component{
+    margin: 10px 0;
+    padding: 5px 0;
+    width: 100%;
+    
+}
+.component div:first-of-type{
+  width: 10%;
+  display: inline;
+  float: left;
+}

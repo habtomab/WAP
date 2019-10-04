@@ -2,75 +2,62 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <link href="grade.css" type="text/css" rel="stylesheet"/>
-    <title>
-        Retrieve your grade
+  <meta charset="utf-8" />
+  <link href="grade.css" type="text/css" rel="stylesheet" />
+  <title>
+    Retrieve your grade
 
-    </title>
+  </title>
 </head>
 
 <body>
-    <h1>Retrieve your grade
-    </h1>
-    <form action="http://mumstudents.org/params.php" method="post">
-        Name: <input type="text" name="name"><br>
-        Student ID: <input type="text" name="id"><br>
-        <textarea rows="4" cols="20">
-          Type your comments here.
-          </textarea><br>
-          <input type="checkbox" name="lettuce" /> Lettuce
-    <input type="checkbox" name="tomato" checked /> Tomato
-    <input type="checkbox" name="pickles" checked /> Pickles <br>
-<!--     
-   <select name="favoritecharacter[]" size="3" multiple>
-    <option>Jerry</option>
-    <option>George</option>
-    <option>Kramer</option>
-    <option>Elaine</option>
-    <option selected>Newman</option>
-  </select><br> -->
-  Name: <input type="text" name="name" /> <br />
-Food: <input type="text" name="meal" value="pizza" /> <br />
-<label>Meat? <input type="checkbox" name="meat" /></label> <br />
-<input type="reset" />
-<input type="text" name="username" /> Name 
-<input type="text" name="sid" /> SID <br />
-<input type="hidden" name="school" value="MUM" />
-<input type="hidden" name="year" value="2048" />
-<select name="favoritecharacter">
-  <option>Jerry</option>
-  <option>George</option>
-  <option selected>Kramer</option>
-  <option>Elaine</option>
-</select>
-<select name="favoritecharacter">
-  <optgroup label="Major Characters">
-    <option>Jerry</option>
-    <option>George</option>
-    <option>Kramer</option>
-    <option>Elaine</option>
-  </optgroup>
-  <optgroup label="Minor Characters">
-    <option>Newman</option>
-    <option>Susan</option>
-  </optgroup>
-</select> <br>
-<fieldset>
-  <legend>Credit cards:</legend>
-  <input type="radio" name="cc" value="visa" checked="checked" /> Visa
-  <input type="radio" name="cc" value="mastercard" /> MasterCard
-  <input type="radio" name="cc" value="amex" /> American Express
-</fieldset>
-        <input type="submit" value="Submit">
-    </form>
-    
-    
-    <a href="https://validator.w3.org/check/referer">
-      <img src="http://mumstudents.org/cs472/images/w3c-html.png" alt="Validate" /></a>
+  <h1>Retrieve your grade
+  </h1>
+  <form action="http://mumstudents.org/params.php" method="post">
+    <div class="component">
+      <div><label> Student Name: </label> </div>
+      <div><input type="text" name="name"></div>
+    </div>
+    <div class="component">
+      <div><label> Student ID: </label> </div>
+      <div><input type="text" name="id"></div>
+    </div>
+    <div class="component">
+      <div><label> Grade: </label> </div>
+      <div><input type="text" name="id"></div>
+    </div>
 
-  <a href="https://jigsaw.w3.org/css-validator/check/referer"> 
-      <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid" /></a> 
+
+    <div class="component">
+      <label>Which Entry:</label>
+     
+    
+    <select name="favoritecharacter">
+
+      <option>2018 Feb</option>
+      <option>2018 Aug</option>
+      <option>2019 Feb</option>
+      <option>2018 Aug</option>
+
+    </select> 
+  </div>
+    <div><input type="checkbox" name="tomato" checked /> marked</div>
+    
+    <!-- <fieldset>
+      <legend>Credit cards:</legend>
+      <input type="radio" name="cc" value="visa" checked="checked" /> Visa
+      <input type="radio" name="cc" value="mastercard" /> MasterCard
+      <input type="radio" name="cc" value="amex" /> American Express
+    </fieldset> -->
+    <input type="submit" value="GetGrade">
+  </form>
+
+
+  <a href="https://validator.w3.org/check/referer">
+    <img src="http://mumstudents.org/cs472/images/w3c-html.png" alt="Validate" /></a>
+
+  <a href="https://jigsaw.w3.org/css-validator/check/referer">
+    <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid" /></a>
 
 </body>
 

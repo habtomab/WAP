@@ -1,0 +1,12 @@
+#allcontent{
+    display: inline;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-content: center;
+    
+}
+body {
+   
+    align-content: center;
+    background:  burlywood;
+}

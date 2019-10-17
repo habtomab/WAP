@@ -1,0 +1,21 @@
+
+textarea {
+    width: 100%;
+    font-family: "Time New Roman", sans-serif;
+    font-size: 12pt;
+}
+
+button {
+    font-family: "Time New Roman", sans-serif;
+    font-size: 12pt;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+
+input[type="text"] {
+    font-family: "Time New Roman", sans-serif;
+    font-size: 12pt;
+    width: 300px;
+    height: 30px;
+}
